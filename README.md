@@ -1,4 +1,8 @@
-# BigDataAnalytics
+# Waste Management using Big Data
+
+EECS6893 Big Data Analytics - Project
+
+Team Members: Hadeel Ahmad Albahar, Shreya Yathish Kumar, Harnoor Singh Powar 
 
 Waste Management has always been a topic of discussion since the outburst of technology ensued by population rise and improper infrastructure. In this project, we are trying to advance New York City’s goals to reduce landfill waste by encouraging every New Yorker to audit their waste to green their homes and workplaces. 
 
