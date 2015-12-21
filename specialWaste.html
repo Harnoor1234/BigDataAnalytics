@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#map {
+width: 500px;
+height: 400px;
+}
+</style>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+var manhattan = {lat: 40.753231, lng: -74.003499};
+var brooklyn = {lat: 40.59103, lng: -73.994787};
+var queens = {lat: 40.769650, lng: -73.846606};
+var bronx = {lat: 40.809007, lng: -73.880095};
+var statenIsland = {lat: 40.569652, lng: -74.194829};
+
+var map = new google.maps.Map(document.getElementById('map'), {
+zoom: 10,
+center: manhattan
+});
+
+var marker_manhattan = new google.maps.Marker({
+position: manhattan,
+map: map,
+title: 'manhattan'
+});
+
+var marker_brooklyn = new google.maps.Marker({
+position: brooklyn,
+map: map,
+title: 'brooklyn'
+});
+
+var marker_queens = new google.maps.Marker({
+position: queens,
+map: map,
+title: 'queens'
+});
+
+var marker_bronx = new google.maps.Marker({
+position: bronx,
+map: map,
+title: 'bronx'
+});
+
+var marker_statenIsland = new google.maps.Marker({
+position: statenIsland,
+map: map,
+title: 'statenIsland'
+});
+
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+<div id="map"></div>
+</body>
+</html>
+
