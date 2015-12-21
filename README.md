@@ -1,6 +1,6 @@
 # Waste Management using Big Data
 
-EECS6893 Big Data Analytics - Project
+EECS6893 Big Data Analytics Project
 
 Team Members: Hadeel Ahmad Albahar, Shreya Yathish Kumar, Harnoor Singh Powar 
 
